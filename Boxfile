@@ -1,0 +1,7 @@
+shared_folders:
+ - wp-content/uploads
+ - wp-content/backups
+env_specific_files:
+ .htaccess:
+   production: .htaccess.production
+   test: .htaccess.test
