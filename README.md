@@ -10,7 +10,7 @@ To use it, first clone your website repository:
 
 Then pull in the base repository:
 
-    $ git remote add base git://github.com/freistil/freistilbox-base.git
+    $ git remote add base git://github.com/freistil/freistilbox-base-wordpress.git
     $ git pull base master
 
 Repeat the `git pull` to update your website from our base repository.
