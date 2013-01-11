@@ -1,7 +1,5 @@
-shared_folders_public:
+shared_folders:
  - wp-content/uploads
-shared_folders_private:
- - backups
 env_specific_files:
  .htaccess:
    production: .htaccess.production
