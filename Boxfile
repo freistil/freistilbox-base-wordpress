@@ -1,4 +1,4 @@
-shared_folders:
+shared_folders_public:
  - wp-content/uploads
  - wp-content/backups
 env_specific_files:
