@@ -5,7 +5,7 @@ The is the base repository for WordPress websites hosted on [freistilbox](http:/
 
 To use it, first clone your website repository:
 
-    $ git clone ssh://sNUMBER@repo1.freistilbox.net/~/site mysite
+    $ git clone sNUMBER@repo.freistilbox.net:sNUMBER mysite
     $ cd mysite
 
 Then pull in the base repository:
