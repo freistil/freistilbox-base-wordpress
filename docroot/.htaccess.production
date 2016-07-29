@@ -7,6 +7,10 @@ RewriteRule . /index.php [L]
 </IfModule>
 
 <Files wp-config.php>
-Order Deny,Allow
-Deny from All
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+  </IfModule>
 </Files>
